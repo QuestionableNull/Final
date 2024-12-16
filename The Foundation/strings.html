@@ -1,0 +1,39 @@
+<!--Zavier Pellum-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>strings</title>
+    <link rel="stylesheet" href="strings.css">
+    <script src = "strings.js"></script>
+</head>
+    <a href="final.html">Home</a>
+    <body>
+        <!--The form tag allows the user to press the submit button and something happens when it is pressed-->
+        <form id = "firstLast" onsubmit = "fullname()">
+            <!--The label for the firstname displays the words first name-->
+            <label for = "Firstname">Firstname: </label>
+            <!--This makes a text box for the user to type an input-->
+            <input type = "text" id = "firstname" name = "Firstname"></input><br><br>
+
+            <!--The label for the Lastname displays the words last name-->
+            <label for = "Lastname">Lastname: </label>
+            <!--This makes a text box for the user to type an input-->
+            <input type = "text" id = "lastname" name = "Lastname"></input><br><br>
+
+            <!--The label for the zipcode displays the words zipcode-->
+            <label for = "Zipcode">Zipcode: </label>
+            <!--This makes a text box for the user to type an input-->
+            <input type = "text" id = "zipcode" name = "Zipcode"></input><br><br>
+
+            <!--Allows the user to press the submit button-->
+            <input type = "submit" value = "Submit"></input>
+        </form>
+
+        <!--Creates a paragraph tag that will display the full name of the user-->
+        <p id = "display"></p>
+        <!--Creates a paragraph thg that will display a secret message for the user to read-->
+        <p id = "secretMessage"></p>
+    </body>
+</html>

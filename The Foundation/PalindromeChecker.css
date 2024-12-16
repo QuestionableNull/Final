@@ -1,0 +1,44 @@
+/* Style for the entire body */
+body {
+    font-family: Arial, sans-serif; /* Set font style */
+    text-align: center; /* Center align text */
+    background-color: #f4f4f4; /* Light gray background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style for the header section */
+header {
+    background-color: #007BFF; /* Blue background color */
+    color: white; /* White text color */
+    padding: 20px; /* Add space inside the header */
+}
+
+/* Style for the main heading */
+h1 {
+    margin: 0; /* Remove default margin */
+}
+
+/* Style for the input text field */
+input[type="text"] {
+    padding: 10px; /* Add space inside the text box */
+    font-size: 16px; /* Set font size */
+    width: 300px; /* Set fixed width */
+    margin-right: 10px; /* Add space between the input and button */
+}
+
+/* Style for the button */
+button {
+    padding: 10px 20px; /* Add space inside the button */
+    font-size: 16px; /* Set font size */
+    background-color: #28a745; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Round the edges */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #218838; /* Darker green when hovered */
+}
